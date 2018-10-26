@@ -1,0 +1,146 @@
+/* #region BODY CONTENT*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body>div {
+  margin: 0 auto;
+}
+
+body #default>div {
+  max-width: none;   
+}
+
+div {
+  display: block
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+/* #endregion */
+
+/* #region BANNER CONTENT*/
+
+#default #banner_main {
+  overflow: hidden;
+  position: relative;
+}
+
+#default #banner_main>image {  
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  min-width: 980px;
+}
+
+.banner-es {
+  max-width: none;
+  height: 350px;
+  background-image: url(../images/banner_junte_se_a_nos-es.png);
+  margin-bottom: 20px;
+}
+
+.banner-en {
+  max-width: none;
+  height: 350px;
+  background-image: url(../images/banner_junte_se_a_nos-en.jpg);
+  margin-bottom: 20px;
+}
+
+/* #endregion */
+
+/* #region HEADER CONTENT*/
+#header>a {
+  display: block;
+  width: 170px;
+}
+
+#header>a img {
+  position: relative;
+  width: 150px;
+}
+
+a img {
+  border: none;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#header>ul {
+  float: right;
+  display: block;
+  position: relative;
+  top: -40px;
+}
+
+#header>ul li {
+  display: inline-block;
+}
+
+#header>ul li a {
+  color: #999;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 20px 0 0;
+  text-shadow: 0 1px 0 #fff;
+}
+
+#default #header>a[alt="txt"] {
+  width: auto;
+  position: relative;
+}
+
+#default #header>ul li a {
+  color: #fff;
+  text-shadow: none;
+}
+
+#default #header>ul li a:hover {
+  text-shadow: 0 1px 1px #333;
+}
+
+/* #endregion */
+
+/* #region MIDDLE CONTENT*/
+#default>div.middle>div h5 {
+  display: inline-block;
+  color: #666;
+  font-weight: 600;
+  line-height: 25px;
+  font-style: italic;
+  font-size: 16px;
+  padding: 12px 30px;
+  margin-bottom: 0px;
+}
+/* #endregion */
+
+body.FF fieldset .button.blue {
+  padding: unset;
+}
+
+fieldset input[type="file"], fieldset textarea {
+  float: right;
+  overflow: hidden;
+  opacity: 0;
+}
+
+fieldset label[for=file-name] {
+  float:right; width:379px; height:23px; color: #666; margin: 0 0 0 10px; 
+                    border: 1px solid #d5d5d5; border-radius: 2px; line-height: 23px; padding: 7px 12px;
+                    font-size: 16px;
+}
